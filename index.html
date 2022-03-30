@@ -5,7 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Sign Up Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="picture-container">
+        <div class="text-background">
+          <img class="odin-logo" src="./images/odin.png" />
+          <p class="float-text">ODIN</p>
+        </div>
+        <img class="main-image" src="./images/sideImage.jpg" />
+      </div>
+
+      <div class="signUp-container">
+        <article>
+          <p>
+            This is not a real online service! You know you need somthing like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <br />
+          <p>You know you want to.</p>
+        </article>
+        <form onsubmit="">
+          <div class="lets-do-it">
+            <h2>Let's do this!</h2>
+            <div class="inputs-container">
+              <div class="input-container">
+                <label for="First Name">First Name</label>
+                <input type="text" required />
+              </div>
+              <div class="input-container">
+                <label for="Last Name">Last Name</label>
+                <input type="text" required />
+              </div>
+              <div class="input-container">
+                <label for="Email">Email</label>
+                <input type="email" required />
+              </div>
+              <div class="input-container">
+                <label for="Phone Number">Phone Number</label>
+                <input type="tel" required />
+              </div>
+              <div class="input-container">
+                <label for="Password">Password</label>
+                <input type="password" required />
+              </div>
+              <div class="input-container">
+                <label for="Password">Confirm Password</label>
+                <input type="password" required />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+        </form>
+        <div class="sign-in">
+          Already have an account? <a link="">Log in</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
